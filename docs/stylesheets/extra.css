@@ -1,0 +1,105 @@
+:root {
+  --rejesha-green: #006838;
+  --rejesha-green-dark: #004d2a;
+  --rejesha-green-light: #2e9b5f;
+  --rejesha-highlight: #b9f6ca;
+
+  --md-primary-fg-color: var(--rejesha-green);
+  --md-primary-fg-color--light: var(--rejesha-green-light);
+  --md-primary-fg-color--dark: var(--rejesha-green-dark);
+  --md-accent-fg-color: var(--rejesha-highlight);
+}
+.md-header {
+  background: var(--rejesha-green);
+}
+
+.md-sidebar--primary {
+  background: var(--rejesha-green);
+}
+
+.md-sidebar--primary.md-nav__title {
+  background: var(--rejesha-green);
+  color: #ffffff;
+}
+
+.md-sidebar--primary.md-nav__link {
+  color: #ffffff;
+}
+
+.md-sidebar--primary.md-nav__link:hover,
+.md-sidebar--primary.md-nav__link--active {
+  color: var(--rejesha-highlight);
+}
+
+.md-header__button.md-logo img {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+}
+
+.md-content h1 {
+  color: var(--rejesha-green);
+  font-weight: 700;
+}
+
+.md-content h2 {
+  color: var(--rejesha-green);
+  border-bottom: 2px solid var(--rejesha-green-light);
+  padding-bottom: 0.25rem;
+}
+
+.md-button {
+  background-color: var(--rejesha-green);
+  border-radius: 6px;
+  color: #ffffff !important;
+  padding: 0.6rem 1rem;
+}
+
+.md-button:hover {
+  background-color: var(--rejesha-green-dark);
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+}
+.md-header__button.md-logo img {
+  background: #ffffff;
+  padding: 0.25rem;
+  border-radius: 0.35rem;
+}
+.md-sidebar--secondary.md-nav__title {
+  color: #006838;
+  font-weight: 700;
+}
+
+.md-sidebar--secondary
+  > .md-sidebar__scrollwrap
+  > .md-nav
+  > .md-nav__list
+  > .md-nav__item
+  > .md-nav__link {
+  color: #006838;
+  font-weight: 700;
+}
+
+.md-sidebar--secondary.md-nav__item.md-nav__item > .md-nav__link {
+  pointer-events: none;
+  cursor: default;
+  color: #555555;
+  font-weight: 400;
+}
+
+.md-sidebar--secondary.md-nav__item.md-nav__item {
+  padding-left: 0.6rem;
+}
+
+.md-sidebar--secondary
+  > .md-sidebar__scrollwrap
+  > .md-nav
+  > .md-nav__list
+  > .md-nav__item
+  > .md-nav__link--active {
+  color: #006838;
+  font-weight: 700;
+}

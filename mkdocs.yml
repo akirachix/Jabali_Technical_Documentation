@@ -1,0 +1,56 @@
+site_name: Rejesha Green Technical Documentation
+site_description: Technical documentation for the Rejesha Green platform
+
+theme:
+  name: material
+  language: en
+  logo: assets/brand/logo.png
+  favicon: assets/brand/logo.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Architecture: architecture.md
+  - Backend: backend.md
+  - Frontend: frontend.md
+  - Security: security.md
+  - Deployment: deployment.md
+  - Developer Guide: developerGuide.md
