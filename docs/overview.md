@@ -164,10 +164,10 @@ Web dashboard showing total members, revenue, permit rates, extraction volumes, 
 ---
 
 ## Informational Website
+
 For more information about Rejesha Green, visit our official information website:
 [Visit the Rejesha Green Information Website](https://rejeshagreen-vert.vercel.app/)
 The website provides additional information about the platform, its purpose, services, and impact on forest communities.
-
 
 ## Workflow Overview
 
