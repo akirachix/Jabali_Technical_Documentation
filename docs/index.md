@@ -6,8 +6,8 @@ Digital tools for stronger forest communities
 
 Rejesha Green is a digital forest-management platform that helps Community Forest Associations, members, forest rangers, KFS officials, and conservation organizations coordinate forest activities more efficiently.
 
-[Explore the Overview](overview.md){.md-button.md-button--primary }
-[Read the Developer Guide](developerGuide.md){.md-button }
+Explore the Overview overview.md.md-button.md-button--primary
+Read the Developer Guide developerGuide.md .md-button
 
 </div>
 
@@ -21,19 +21,19 @@ The platform is designed to improve communication, accountability, and collabora
 
 <div class="grid cards" markdown>
 
--:material-account-group:{.lg.middle } **Community-centered**
+material-account-group Community-centered
 
     Supports Community Forest Associations and their members throughout the forest-management process.
 
--:material-file-document-check:{.lg.middle } **Digital workflows**
+material-file-document-check Digital workflows
 
     Replaces time-consuming manual processes with structured digital registration, permit, and reporting workflows.
 
--:material-shield-check:{.lg.middle } **Secure by design**
+material-shield-check Secure by design
 
     Protects user accounts, personal information, permissions, transactions, and system data.
 
--:material-forest:{.lg.middle } **Conservation focused**
+material-forest Conservation focused
 
     Encourages responsible forest use, illegal-activity reporting, conservation planning, and restoration monitoring.
 
@@ -45,47 +45,47 @@ The platform is designed to improve communication, accountability, and collabora
 
 <div class="grid cards" markdown>
 
--:material-information-outline:{.lg.middle } **Overview**
+material-information-outline Overview
 
     Learn about the product, the problem it solves, its users, goals, and key capabilities.
 
-    [:octicons-arrow-right-24: Read the overview](overview.md)
+    octicons-arrow-right-24: Read the overview overview.md
 
--:material-sitemap:{.lg.middle } **Architecture**
+material-sitemap Architecture
 
     Explore the platform structure, system components, data flow, and technical decisions.
 
-    [:octicons-arrow-right-24: View architecture](architecture.md)
+octicons-arrow-right-24: View architecture architecture.md
 
--:material-server:{.lg.middle } **Backend**
+material-server Backend
 
     Understand the backend services, APIs, business logic, and data-management responsibilities.
 
-    [:octicons-arrow-right-24: View backend documentation](backend.md)
+octicons-arrow-right-24: View backend documentation backend.md
 
--:material-cellphone-link:{.lg.middle } **Frontend**
+material-cellphone-link Frontend
 
     Learn how the web and mobile interfaces support platform users.
 
-    [:octicons-arrow-right-24: View frontend documentation](frontend.md)
+    octicons-arrow-right-24: View frontend documentation frontend.md
 
--:material-shield-lock:{.lg.middle } **Security**
+material-shield-lock Security
 
     Review authentication, authorization, data protection, payment security, and audit controls.
 
-    [:octicons-arrow-right-24: View security documentation](security.md)
+octicons-arrow-right-24: View security documentation security.md
 
--:material-rocket-launch:{.lg.middle } **Deployment**
+material-rocket-launch Deployment
 
     Learn how to configure, deploy, monitor, and maintain the platform.
 
-    [:octicons-arrow-right-24: View deployment documentation](deployment.md)
+    octicons-arrow-right-24: View deployment documentation deployment.md
 
--:material-code-tags:{.lg.middle } **Developer Guide**
+material-code-tags Developer Guide
 
     Set up the development environment and learn how to contribute to the project.
 
-    [:octicons-arrow-right-24: Open developer guide](developerGuide.md)
+    octicons-arrow-right-24: Open developer guide developerGuide.md
 
 </div>
 
